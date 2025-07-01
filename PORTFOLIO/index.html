@@ -1,1 +1,153 @@
-<html><body><h1>portfolio Placeholder</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #cfc6c6;
+    }
+    header {
+      background-color: #1b4269;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: rgb(128, 136, 170);
+      border-radius: 1px;
+    }
+    h2 {
+      color: #04284d;
+    }
+    img {
+      max-width: 150px;
+      border-radius: 50%;
+    }
+    footer {
+      background-color: #132c46;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills div, .projects div {
+      background-color: #e0e0e0;
+      padding: 10px;
+      border-radius: 5px;
+      flex: 1 1 45%;
+    }
+    nav {
+  background-color: #005599;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+</head>
+<body>
+
+  <header>
+    <h1>Bhargavi Vankar</h1>
+    <p>Computer Engineering Student | Future Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="myphoto.jpg" alt="My Photo">
+    <p>Hello! I'm a passionate student of computer engineering. I love coding and exploring web development, data structures, and building creative projects.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>C++</div>
+      <div>DSA</div>
+    </div>
+    
+    
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div>
+        <strong>Home Automation</strong><br>
+        Developed a home automation web app using React.js, Node.js, MongoDB, and Raspberry Pi 3, enabling real-time control of appliances.
+Integrated Python scripts on Raspberry Pi to interface with hardware via GPIO for IoT-based device management.
+      </div>
+      <div>
+        <strong>Daily Tracker App</strong><br>
+       A simple web-based app to help users track daily tasks and productivity.
+       Built using HTML, CSS, and JavaScript,
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" target="_blank">View My Resume</a>
+
+
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: bhargavi31032005@gmail.com</p>
+    <p>Phone: +91 9427333038</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bhargavi Vankar | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
